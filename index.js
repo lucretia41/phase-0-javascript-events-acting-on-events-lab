@@ -1,4 +1,3 @@
-// Your code here
 let dodger = document.getElementById('dodger');
 
 function moveDodgerLeft() {
@@ -36,12 +35,7 @@ document.addEventListener("keydown", function (event) {
   
   })
 
-function moveDodgerUp() {
-    let upNumbers = dodger.style.up.replace('px', '');
-    let up = parseInt(upNumbers, 10)
-    if (up > 0) {
-        dodger.style.up = `${up - 1}px`
-    }
- }
 
+
+ 
 
